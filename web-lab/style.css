@@ -1,0 +1,51 @@
+ul {
+    list-style-type: none;
+}
+body{
+    background-color: beige;
+}
+.mainContainer{
+   
+    width: 70%;
+    margin: 10px auto;
+}
+.navbar {
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    margin: 0px 20px;
+
+}
+
+li a {
+    text-decoration: none;
+    font: 15px bold;
+    color: black;
+}
+
+.search {
+    margin-top: 15px;
+    position: relative;
+}
+.search input{
+    padding:  3px;
+}
+.homepage{
+    margin-top: 25px;
+    text-align: center;
+    font: 30px bold;
+}
+.search i{
+    position: absolute;
+    top: 3px;
+    right:6px;
+}
